@@ -5,9 +5,10 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Quicksand" rel="stylesheet">
   </head>
   <body>
-    <div class="potatoeInfo">
+    <div class="potatoeInfo container">
     	<h2>About Potatos</h2>
     	<p>Potatoes are a peculiar species, both dank and tasty. They originate from a place called Potatoe Ville. Potatoes have become a dank meme all across the web. As you can see, America is playing with its food, (virtually).</p>
+      <a href="index.html" class="button center">Homepage</a>
     </div>
     <style>
       body {
@@ -26,8 +27,8 @@
       }
       p {
       	font-family:"Inconsolata";
-        font-size:18px;
-        line-height:25px;
+        font-size:25px;
+        line-height:30px;
       }
       .button {
         transition: all 0.2s ease;
@@ -46,6 +47,16 @@
         padding: 20px 37px;
         font-size:25;
         color:white;
+      }
+      .center {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 70%;
+        max-width: 960px;
+        margin: 0 auto;
       }
     </style>
   </body>
